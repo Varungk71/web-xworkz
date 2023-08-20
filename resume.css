@@ -1,0 +1,40 @@
+.add
+{
+    background-color: cadetblue;
+    
+}
+.border,td,tr
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+}
+th
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+}
+#hid1
+{
+    text-align: right;
+
+}
+#hid2
+{
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+}
+#hid3
+{
+    width: 100;
+}
+img{
+    position: absolute;
+    margin-right: 20px;
+}

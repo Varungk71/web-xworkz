@@ -1,0 +1,86 @@
+#youtube
+{
+    width: 7%;
+    margin-left: 10px;
+}
+#video1
+{
+    margin-left: 80px;
+}
+
+#nav
+{
+    display: flex;
+}
+.video
+{
+    /* margin-left: 70px; */
+    margin-top: 5vh;
+    margin-left: 5vh; 
+}
+.fa-solid fa-microphone
+{
+    width: 90px;
+    margin-left: 20px;
+}
+#search
+{
+    width: 40%;
+    height: 4vh;
+    border-radius: 20vh;
+    margin-left: 200px;
+}
+#voice
+{
+    width: 1.5%;
+    margin-top: 1px;
+    /* margin-left: 1000px; */
+    align-items: center;
+    margin-left: 10vh;
+}
+
+#sign
+{
+    color: blue;
+    margin-left: 20px;
+    border-radius: 20vh;
+    width: 6%;
+    height: 32px;
+}
+.allign
+{
+    margin-left: 70px;
+}
+#logo
+{
+    margin-top: 20px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+#nav2
+{
+    display: flex;
+}
+#suscribe
+{
+    color: aliceblue;
+    background-color: black;
+    width: 10%;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+line
+{
+    width: 20px;
+    height: 1px;
+}
+#national
+{
+    margin-left: 20px;
+    
+}
+h3{
+    margin-left: 70px;
+}

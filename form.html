@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>assignment-2</title>
+    <link rel="stylesheet" href="form.css">
+
+    <script>
+        function clickHere(){
+            console.log("clicked")
+            alert("submited")
+            console.log("next data")
+
+        }
+        function validationMethod(){
+
+        }
+    </script>
+</head>
+
+<body>
+    <h3 class="form">Application Form</h3>
+    <form name="newForm" onsubmit="validationMethod()">
+        <div>
+            <label for="nameId"></label>
+            Name <span style="color: red;">*</span>: <input type="text" id="nameId"  class="allign" placeholder="Varun G K" required disabled>
+        </div>
+        <br>
+        <div>
+            E-mail <span style="color: red;">*</span>:<input type="email" class="allign" id="mailId" placeholder="enter email" required>
+        </div>
+        <br>
+        <div>
+            Phone Number <span style="color: red;">*</span>: <input type="number"  id="id1" required>
+        </div>
+        <br>
+        <div>
+            Date of Birth <span style="color: red;">*</span>: <input type="date"  id="id2" required>
+        </div>
+        <br>
+        <div>
+            Gender : <input type="radio" id="inputMale" name="radioName" class="allign">Male
+            <input type="radio" id="inputFemale" name="radioName">Female
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="javaId">Java
+            <input type="range" >
+            <br>
+            <input type="checkbox" id="sqlId"> sql 
+            <input type="range">
+            <br>
+            <input type="checkbox" id="htmlId">html
+            <input type="range">
+        </div>
+        <br>
+        <div>
+            password<span style="color: red;">*</span>:<input type="password" class="allign">
+        </div>
+        <br>
+        <div>
+            Resume <span style="color: red;">*</span>:<input type="file" required class="allign">
+        </div>
+        <br>
+        <div>
+            Write about yourself:
+            <br>
+            <textarea name="area" id="id10" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" > <span style="color: red;">*</span>Agree to terms and condition
+        </div>
+        <br>    
+        <div>
+            <button type="submit"> Save</button>
+            <button type="reset">Reset</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="clickHere()">click here</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+body{
+    background-color: darkseagreen;
+
+
+}
+
+.form {
+    text-align: center;
+    background-color: rgb(228, 172, 105);
+    font-style: oblique;
+    
+}
+
+#id1 
+{
+    width: 150px;
+}
+
+.allign
+{
+    margin-left: 12vh;
+    background-color: cadetblue;
+
+}
+#id1{
+    margin-left: 4vh;
+    width: 160px;
+    background-color: cadetblue;
+}
+#id2{
+    margin-left: 6vh;
+    width: 160px;
+    background-color: cadetblue;
+}
+#id3{
+    margin-left: 20vh;
+}
+#id10{
+    background-color: rgb(163, 145, 100);
+}
+#id100{
+    
+}
